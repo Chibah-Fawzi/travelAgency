@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/hotels.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <div id="nav" class="row">
+                    <div class="logo"><a href="index.html"><img src="assets/logo-mini.webp" alt=""></a></div>
+                    <ul>
+                        <a href="index.html">
+                            <li class="selected">ACCUEIL</li>
+                        </a>
+                        <a href="index.html#histoire">
+                            <li>HISTOIRE</li>
+                        </a>
+                        <a href="index.html#service">
+                            <li>SERVICES</li>
+                        </a>
+                        <a href="index.html#contact">
+                            <li>CONTACT</li>
+                        </a>
+                    </ul>
+                    <form action="../TravelAgency-master/inscription.html" method="get" target="_blank">
+                        <button type="submit" class="myAuto myButton btn btn-dark center">S'inscrire</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="arrow">
+        <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"><span>Précedent</span></i></a>
+    </div>
+
+    <div class="mainh1">
+        <h1 class="text-center padding">Hotels</h1>
+    </div>
+
+    <div class="container-box">
+
+
+        <div class="row align-items-start">
+            <div class="col-md-4 left-1">
+                <div class="col">
+                    <h3><span>1 </span>Emplacement de l'hotel</h3>
+                    <form>
+
+                        <div class="col">
+                            <input type="radio" id="v" name="place" value="v">
+                            <label for="v">Prés d'une ville</label><br>
+                            <input type="radio" id="a" name="place" value="a">
+                            <label for="v">Prés d'un aeroport</label>
+                        </div>
+
+                        <div class="dropdown">
+                            <h4 class="ville">Nom de la ville</h4>
+                            <select class="ville">
+                                <option selected value="Ville">Ville</option>
+                            </select>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="col-md-12 left-2">
+                    <div class="dropdown">
+                        <h3 id="two"><span>2 </span>Nom d'un hôtel en particulier</h3>
+
+                        <h4>Nom de l'hôtel</h4>
+                        <select id="hotel">
+                            <option selected value="Hôtel">Nom d'hôtel</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+
+                <h3><span>3 </span>Indication sur les dates et les chambres</h3>
+
+
+                <label>Date de départ: </label>
+                <input type="date" name="calendar">
+                <br>
+                <label>Date de retour: </label>
+                <input type="date" name="calendar">
+                <br>
+                <div class="dropdown" id="last">
+                    <label>Chambres: </label>
+                    <select id="hotel">
+                        <option selected value="Choisissez une option">Choisissez une option</option>
+                    </select>
+                    <br>
+                    <label>Adultes: </label>
+                    <select id="hotel">
+                        <option selected value="Choisissez une option">Choisissez une option</option>
+                    </select>
+                    <br>
+                    <label>Enfants: </label>
+                    <select id="hotel">
+                        <option selected value="Choisissez une option">Choisissez une option</option>
+                    </select> </div>
+            </div>
+            <div class="row">
+                <div class="col-8 col-sm-6">
+                    <input type="submit" name="" value="Soummetre">
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
