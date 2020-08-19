@@ -36,7 +36,7 @@ a:active {
 }
 
 .container {
-    margin: 0 auto;
+    margin: -10px auto;
     max-width: 80em;
 }
 
@@ -49,7 +49,6 @@ nav {
     border-bottom: 3px solid var(--main-bg-color);
     position: fixed;
     z-index: 3
-
 }
 
 .nav-wrapper {
@@ -103,27 +102,27 @@ nav {
     width: 150px;
     height: 40px;
     padding: auto;
+    margin: 10px;
     border-radius: 0;
     text-align: center;
-    font-weight: 100;
-    
+    font-weight: 100; 
 }
-
 
 /* TITLE */ 
 
 .mainh1 h1 {
-
     color: var(--main-bg-color);
     font-weight: 500;
     font-size:45px;
-    text-align: center;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 45%;
 }
 
 /* CONTAINER */
 
 .container-box {
-
+    margin-top: 3%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -133,15 +132,13 @@ nav {
     background-color: rgba(2,108,62, 0.7); 
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 0px;
-    
 }
 
 .row {
 margin: 10px;
 font-size: 11px;
-
-
 }
+
 .dropdown {
     margin: 0;
 }
@@ -161,15 +158,12 @@ input[type="radio"] {
 }
 
 h3, h4 {
-    
     font-size: 19px;
     transition: 1.4s;
-       
 }
 
 .container-box h3 {
     margin-bottom: 30px;
-    
 }
 
 .dropdown h3 {
@@ -183,11 +177,9 @@ h3, h4 {
 
 
 .container-box select {
-
     width: 25vh;
     height: 5vh;
     margin-bottom: 5px;
-
 }
 
 #last label {
@@ -198,7 +190,6 @@ input[type="date"] {
     width: 100%;
     height: 5vh;
     margin: 5px;
-
 }
 
 
@@ -226,9 +217,7 @@ span {
 
 
 .left-1 {
-    border-right: solid 2px var(--secondary-bg-color);
-
-    
+    border-right: solid 2px var(--secondary-bg-color);   
 }
 
 .left-2 {
@@ -239,24 +228,25 @@ span {
 .arrow {
     width: 50%;
     position: absolute;
-    margin-top: 30px;
-    margin-left: 400px;
-
+    margin-top: 6%;
+    margin-left: 2%;
 }
+
 .arrow span {
     font-family: 'Roboto', sans-serif;
     color: var(--main-bg-color);
-
 }
+
 .arrow a {
     font-size: 20px;
     font-weight: 100;
     color: var(--main-bg-color);
     transition: 0.4s;
     scroll-behavior: smooth; 
-
 }
 
 .arrow a:hover {
-    font-size: 36px;
+    font-size: 26px;
 }
+
+
