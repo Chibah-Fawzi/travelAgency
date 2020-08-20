@@ -28,7 +28,7 @@ body {
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 40px;
-    background: var(--main-bg-color);
+    background-color: rgba(2,108,62, 0.7); 
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 10px;
 }
@@ -36,7 +36,7 @@ body {
 .box h2 {
     margin: 0;
     padding: 0;
-    color: var(--secondary-bg-color);
+    color: white;
     font-weight: 500;
     font-size: 34px;
     text-align: center;
