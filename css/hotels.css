@@ -59,21 +59,23 @@ nav {
 }
 
 .nav-link {
-    margin: 10px;
+    margin: 12px;
     color: var(--main-bg-color);
     text-decoration: none;
     border: none;
 }
 
-.nav-link a {
+.nav-link {
+    margin: 10px;
+    margin-right: 40Px;
     color: var(--main-bg-color);
-    font-size: 10px;
-
+    text-decoration: none;
+    border: none;
 }
 
 .nav-link:hover{
-color: var(--dark-bg-color);
-border: none;
+    color: var(--dark-bg-color);
+    border: none;
 }
 
 .nav-link::after {
