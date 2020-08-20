@@ -340,9 +340,9 @@ span {
 
 
 
-/* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ 
+/* PAGE 3: FORMULAIRE */
 
-
+/* CONTAINER */
 .container-box2{
     margin-top: 8%;
     position: absolute;
@@ -366,11 +366,6 @@ span {
     transition: 1.4s;
     margin-bottom: 5vh;
 }
-
-label {
-    text-align: left;
-}
-
 
 .container-box2 select {
     width:70%;
@@ -423,6 +418,7 @@ hr {
   height: 1px;
 }
 
+/* MARGIN BOTTOM CONTAINER */
 
 .margin3 {
     margin: 35% 0;
