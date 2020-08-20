@@ -274,7 +274,7 @@ span {
 
 /* Background */
 .margin1 {
-    margin: 55% 0;
+    margin: 45% 0;
 }
 
 .margin2 {
@@ -336,4 +336,94 @@ span {
     font-size: 26px;
     letter-spacing: 2px;
     background-color: rgb(245, 236, 69, .7)
+}
+
+
+
+/* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ /* PAGE 3 */ 
+
+
+.container-box2{
+    margin-top: 8%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 55%;
+    background-color: rgba(2,108,62, 0.7); 
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 0px;
+    
+}
+
+.row#page3 {
+    margin: 6vh;
+    font-size: 11px;
+}
+
+.container-box2 h3{
+    font-size: 19px;
+    transition: 1.4s;
+    margin-bottom: 5vh;
+}
+
+label {
+    text-align: left;
+}
+
+
+.container-box2 select {
+    width:70%;
+    height: 5vh;
+    margin-bottom: 5px;
+
+}
+
+
+.container-box2 input[type="date"] {
+    width: 60%;
+    height: 5vh;
+}
+
+
+input[type="submit"] {
+    background: transparent;
+    border: solid 1px var(--secondary-bg-color);
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 110px;
+    margin-top: 80px;
+}
+
+input[type=submit]:hover {
+    border-color: transparent;
+    background-color: var(--dark-bg-color);
+    color: white;
+  }
+
+span {
+    color: var(--secondary-bg-color);
+}
+
+/* BARRES JAUNES */
+
+.left-1 {
+    border-right: solid 2px var(--secondary-bg-color);   
+    height: 45vh;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  background-color:#FFFF00;
+  height: 1px;
+}
+
+
+.margin3 {
+    margin: 35% 0;
 }

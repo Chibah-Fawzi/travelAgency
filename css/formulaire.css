@@ -73,8 +73,8 @@ nav {
 }
 
 .nav-link:hover{
-    color: var(--dark-bg-color);
-    border: none;
+color: var(--dark-bg-color);
+border: none;
 }
 
 .nav-link::after {
@@ -114,7 +114,7 @@ span#account {
 
 /* CONTAINER */
 
-.container-box {
+.container {
     margin-top: 3%;
     position: absolute;
     top: 50%;
