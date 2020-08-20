@@ -18,7 +18,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background-image: url("../assets/gallery/djmel-big.jpg");
+    background-image: url("../assets/fly.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ span#account {
 
 /* TITLE */ 
 
-.container-box .mainh1 h1 {
+.mainh1 h1 {
     color: var(--main-bg-color);
     font-weight: 500;
     font-size:45px;
@@ -121,25 +121,25 @@ span#account {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    height: 63%;
+    width: 90%;
+    height: 60%;
     background-color: rgba(2,108,62, 0.7); 
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 0px;
 }
 
-.container-box .row {
-margin: 1%;
+.row {
+margin: 4vh;
 font-size: 11px;
 }
 
-.container-box .dropdown {
+.dropdown {
     margin: 0;
 }
 
 
-.container-box input[type="radio"] {
-    margin: 10px;
+input[type="radio"] {
+    margin-bottom: 5px;
     width: 1.3em;
     height: 1.3em;
     background-color: white;
@@ -151,7 +151,7 @@ font-size: 11px;
     cursor: pointer;
 }
 
-.container-box h3, h4 {
+h3, h4 {
     font-size: 19px;
     transition: 1.4s;
 }
@@ -160,47 +160,52 @@ font-size: 11px;
     margin-bottom: 10%;
 }
 
-.container-box .dropdown h3 {
+.dropdown h3 {
     margin: 0;
 }
 
-.container-box .dropdown h4 {
-    margin-top: 30%;
-    
+.dropdown h4 {
+    margin-top: 6vh;
 }
 
 .container-box select {
-    width: 25vh;
+    width: 35vh;
     height: 5vh;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .container-box label {
     display: table-cell;
 }
 
-.container-box input, label {
-    margin-bottom: 10px;
+input[type="date"],input[type="text"], label  {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.container-box input[type="date"] {
-    width: 100%;
+input[type="date"] {
+    width: 90%;
     height: 5vh;
-    margin: 5px;
-    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 5vh;
+    padding: 10px;
 }
 
 
-.container-box input[type="submit"] {
+input[type="submit"] {
     background: transparent;
     border: solid 1px var(--secondary-bg-color);
     outline: none;
     color: white;
-    margin-top: 100vh;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 50px;
-    margin-top: 140px;
+    width: 110px;
+    margin-top: 20vh;    
 }
 
 input[type=submit]:hover {
@@ -221,7 +226,7 @@ span {
 
 .left-2 {
     border-right: solid 2px var(--secondary-bg-color);
-    height: 170px;
+    height: 190px;
 }
 
 /* FLECHE PRECEDENT */
@@ -273,26 +278,19 @@ span {
 }
 
 
-
-/* DEUXIEME PAGE: SEJOUR */
-
-/* Background */
+/* SPONSORS */
 .margin1 {
     margin: 45% 0;
 }
 
-.margin2 {
-    margin: 8% 0;
-}
-
-.container-sej {
-    background: url("../assets/gallery/bg.png") repeat 100%;
+.container-sponso {
+    background: url("../assets/gallery/sponso.png") repeat 100%;
     text-align: center;
     width: 100%;
     background-repeat: no-repeat;
 }
 
-.container-sej-inner {
+.container-sponso-inner {
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -300,7 +298,7 @@ span {
 /* White container */
 .cont {
     background-color: white;
-    width: 591px;
+    width: 397px;
     height: 450px;
     margin: auto;
     position: relative;
@@ -313,120 +311,20 @@ span {
 .cont h1 {
     color: var(--main-bg-color);
     padding-top: 10%;
-    font-weight: lighter;
+    font-weight: bolder;
 
 }
 
-.cont h5 {
-    font-size: 10px;
-}
 
 .cont p {
     margin: auto;
-    margin-top: 5vh;
-    width: 300px;
+    margin-top: 12vh;
+    width: 240px;
     text-align: center;
-    font-size: 14px;
-    font-weight: 350;
+    font-weight: 100;
+    font-size: 16px;
     margin-bottom: 12vh;
     letter-spacing: 2px;
-
+    font-weight: bold;
 }
 
-.cont a {
-    margin-top: 20%;
-    color: var(--main-bg-color);
-    font-weight: bolder;
-    font-size: 26px;
-    letter-spacing: 2px;
-    background-color: rgb(245, 236, 69, .7)
-}
-
-
-
-/* PAGE 3: FORMULAIRE */
-
-/* CONTAINER */
-.container-box2{
-    margin-top: 8%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 55%;
-    background-color: rgba(2,108,62, 0.7); 
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
-    border-radius: 0px;
-    
-}
-
-.row#page3 {
-    margin: 6vh;
-    font-size: 11px;
-}
-
-.container-box2 h3{
-    font-size: 19px;
-    transition: 1.4s;
-    margin-bottom: 5vh;
-}
-
-.container-box2 select {
-    width:70%;
-    height: 5vh;
-    margin-bottom: 5px;
-
-}
-
-.container-box2 input, label{
-    margin-bottom: 10px;
-}
-
-.container-box2 input[type="date"] {
-    width: 60%;
-    height: 5vh;
-}
-
-
-input[type="submit"] {
-    background: transparent;
-    border: solid 1px var(--secondary-bg-color);
-    outline: none;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 50px;
-    width: 110px;
-    margin-top: 80px;
-}
-
-input[type=submit]:hover {
-    border-color: transparent;
-    background-color: var(--dark-bg-color);
-    color: white;
-  }
-
-span {
-    color: var(--secondary-bg-color);
-}
-
-/* BARRES JAUNES */
-
-.left-1 {
-    border-right: solid 2px var(--secondary-bg-color);   
-    height: 45vh;
-}
-
-hr {
-  border: 0;
-  clear:both;
-  display:block;
-  background-color:#FFFF00;
-  height: 1px;
-}
-
-/* MARGIN BOTTOM CONTAINER */
-
-.margin3 {
-    margin: 40% 0;
-}
