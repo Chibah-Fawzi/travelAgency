@@ -19,7 +19,11 @@ body {
     background-size: cover;
 }
 
-
+.adding a {
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+}
 
 .box {
     position: absolute;
@@ -88,4 +92,5 @@ body {
     cursor: pointer;
     border-radius: 50px;
 }
+
 
