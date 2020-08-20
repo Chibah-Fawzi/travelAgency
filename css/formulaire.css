@@ -1,0 +1,223 @@
+:root {
+    --main-bg-color: #026c3e;
+    --secondary-bg-color: #f5ec45;
+    --dark-bg-color: #343a40;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../assets/gallery/djmel-big.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/*UTILS */
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.myAuto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 80em;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    border-bottom: 3px solid var(--main-bg-color);
+
+}
+
+.logo{
+    margin: auto;
+    margin-left: 47.5%;
+}
+
+.nav-link {
+    margin: 10px;
+    margin-right: 40Px;
+    color: var(--main-bg-color);
+    text-decoration: none;
+    border: none;
+}
+
+.nav-link a {
+    color: var(--main-bg-color);
+    font-size: 10px;
+
+}
+
+.nav-link:hover{
+    color: var(--dark-bg-color);
+    border: none;
+}
+
+.nav-link::after {
+    border: none;
+}
+
+.dropdown-menu a:hover{
+    background-color: var(--main-bg-color);
+}
+
+
+/* COMPTE (à droite) */
+
+span#account {
+    color: var(--main-bg-color);
+}
+
+#arrow {
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--main-bg-color);
+    transition: 0.4s;
+    scroll-behavior: smooth; 
+}
+
+
+/* TITLE */ 
+
+.mainh1 h1 {
+    color: var(--main-bg-color);
+    font-weight: 500;
+    font-size:45px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 43.5%;
+}
+
+/* CONTAINER */
+
+.container-box {
+    margin-top: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 60%;
+    background-color: rgba(2,108,62, 0.7); 
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 0px;
+    
+}
+
+.row {
+margin: 6vh;
+font-size: 11px;
+}
+
+h3{
+    font-size: 19px;
+    transition: 1.4s;
+    margin-bottom: 5vh;
+}
+
+label {
+    text-align: left;
+}
+
+
+.dropdown select {
+    width:70%;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+
+
+input[type="date"] {
+    width: 60%;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+
+
+input[type="submit"] {
+    background: transparent;
+    border: solid 1px var(--secondary-bg-color);
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 110px;
+    margin-top: 80px;
+}
+
+input[type=submit]:hover {
+    border-color: transparent;
+    background-color: var(--dark-bg-color);
+    color: white;
+  }
+
+span {
+    color: var(--secondary-bg-color);
+}
+
+/* BARRES JAUNES */
+
+.left-1 {
+    border-right: solid 2px var(--secondary-bg-color);   
+    height: 45vh;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  background-color:#FFFF00;
+  height: 1px;
+}
+
+/* FLECHE PRECEDENT */
+
+.arrow {
+    width: 50%;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 2%;
+}
+
+.arrow span {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-bg-color);
+}
+
+.arrow a {
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--main-bg-color);
+    transition: 0.4s;
+    scroll-behavior: smooth; 
+}
+
+.arrow a:hover {
+    font-size: 26px;
+}
+
