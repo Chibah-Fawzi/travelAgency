@@ -110,7 +110,7 @@ span#account {
     font-size:45px;
     position: absolute;
     margin-top: 20px;
-    margin-left: 43.5%;
+    margin-left: 46%;
 }
 
 /* CONTAINER */
@@ -312,7 +312,6 @@ span {
     color: var(--main-bg-color);
     padding-top: 10%;
     font-weight: bolder;
-
 }
 
 

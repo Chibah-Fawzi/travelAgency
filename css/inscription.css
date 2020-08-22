@@ -7,6 +7,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/*UTILS */
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.myAuto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 80em;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    border-bottom: 3px solid var(--main-bg-color);
+
+}
+
+.logo{
+    margin: auto;
+    margin-left: 47.5%;
+}
+
+/* FLECHE PRECEDENT */
+
+.arrow {
+    width: 50%;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 2%;
+}
+
+.arrow span {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-bg-color);
+}
+
+.arrow a {
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--main-bg-color);
+    transition: 0.4s;
+    scroll-behavior: smooth; 
+}
+
+.arrow a:hover {
+    font-size: 26px;
+}
+
+/* CONTAINER */
 
 body {
     width: 100%;
@@ -15,7 +75,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background-image: url("../assets/gallery/cuba-big.png");
+    background-image: url("../assets/airview.jpg");
     background-size: cover;
 }
 
@@ -25,10 +85,12 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-top:7%;
+    margin-bottom:9%;
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 40px;
-    background-color: rgba(2,108,62, 0.7); 
+    background-color: rgba(2,108,62, 0.9); 
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 10px;
 }
@@ -83,9 +145,16 @@ body {
     border: solid 1px var(--secondary-bg-color);
     outline: none;
     color: white;
+    width: 150px;
     top: 0;
     left: 0;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 50px;}
-
+    
+input[type=submit]:hover {
+    border-color: transparent;
+    background-color: var(--dark-bg-color);
+    color: white;
+}
+    
