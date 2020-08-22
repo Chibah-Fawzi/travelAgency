@@ -104,13 +104,13 @@ span#account {
 
 /* TITLE */ 
 
-.container-box .mainh1 h1 {
+.mainh1 h1 {
     color: var(--main-bg-color);
     font-weight: 500;
     font-size:45px;
     position: absolute;
     margin-top: 20px;
-    margin-left: 43.5%;
+    margin-left: 45%;
 }
 
 /* CONTAINER */
