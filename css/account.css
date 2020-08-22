@@ -1,0 +1,168 @@
+:root {
+    --main-bg-color: #026c3e;
+    --secondary-bg-color: #f5ec45;
+    --dark-bg-color: #343a40;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: #F2EDED;
+    color: white;
+}
+
+/*UTILS */
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.myAuto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container {
+    margin: 0px auto;
+    max-width: 80em;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    height: 10vh;
+    background: #F2EDED;
+    border-bottom: 3px solid var(--main-bg-color);
+
+}
+
+.logo{
+    margin: auto;
+    margin-left: 47.5%;
+}
+
+
+
+/* TITLE */ 
+
+.mainh1 h1 {
+    color: var(--main-bg-color);
+    font-weight: 500;
+    font-size:45px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+/* FLECHE PRECEDENT */
+
+.arrow {
+    width: 50%;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 2%;
+}
+
+.arrow span {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-bg-color);
+}
+
+.arrow a {
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--main-bg-color);
+    transition: 0.4s;
+    scroll-behavior: smooth; 
+}
+
+.arrow a:hover {
+    font-size: 26px;
+}
+
+
+/* CONTAINER */
+
+.container-box {
+    margin-top: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 79%;
+    background-color: rgba(2,108,62); 
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 0px;
+    font-weight: lighter;
+}
+
+h3, p {
+margin: 4vh;
+text-align: left;
+}
+
+h3 {
+    font-size: 22px;
+
+}
+
+label {
+    display: table-cell;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 11vh;
+    width: 40vh;
+    height: 40px;
+    border-radius: 0;
+    border: none;
+    padding: 10PX;
+}
+
+input[type="button"] {
+    background-color: #b63939;
+    color: white;
+    border-radius: 0;
+    border: none;
+    font-weight: lighter;
+    margin-left: 2vh;    
+    text-align: center;
+    padding: 0;
+}
+
+input[type="button"]:hover {
+    background-color: #9b2929;
+}
+
+input[type="button"]:active {
+    background-color: #792323;
+}
+
+input[type="button"]:focus {
+    outline: none;
+}
+
+.row {
+    margin: 5vh;
+}
+
+hr {
+    width: 600px;
+
+}
