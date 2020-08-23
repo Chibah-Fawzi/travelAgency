@@ -52,6 +52,7 @@ a:active {
 .myAuto {
     margin-top: auto;
     margin-bottom: auto;
+    
 }
 
 .container {
@@ -127,6 +128,7 @@ nav {
     text-align: center;
     font-weight: 100;
     margin: 10px;
+    color: white;
 }
 
 

@@ -20,10 +20,10 @@
 
     <nav>
         <ul class="nav nav-tabs">
-            <div class="logo"><a href="#"><img src="assets/logo-mini.webp" alt=""></a></div>
             <div class="arrow">
                 <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"><span> Précedent</span></i></a>
             </div>
+            <div class="logo"><a href="#"><img src="assets/logo-mini.webp" alt=""></a></div>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                     aria-expanded="false"><span id="account">Nom Prénom </span><i id="arrow"
@@ -40,90 +40,93 @@
 
     <!-- PAGE 1: RESERVATION HOTELS  -->
     <div class="mainh1">
-        <h1 class="col-6">Hotels</h1>
+        <h1 class="col">Hotels</h1>
     </div>
+    <div class="wrapper">
 
-    <div class="container-box">
-        <div class="row align-items-start">
-            <div class="col-md-4 left-1">
-                <div class="col">
-                    <h3><span>1. </span>Emplacement de l'hotel</h3>
-                    <form>
-
+        <div class="container-box">
+            <form>
+                <div class="row align-items-start">
+                    <div class="col-md-4 left-1">
                         <div class="col">
-                            <input type="radio" id="v" name="place" value="v">
-                            <label for="v">Prés d'une ville</label><br>
-                            <input type="radio" id="a" name="place" value="a">
-                            <label for="v">Prés d'un aeroport</label>
-                        </div>
+                            <h3><span>1. </span>Emplacement de l'hotel</h3>
 
-                        <div class="dropdown">
-                            <h4 class="ville">Nom de la ville</h4>
-                            <select class="ville">
-                                <option selected value="Ville">Ville</option>
+                            <div class="col">
+                                <input type="radio" id="v" name="place" value="v">
+                                <label class="mylabel" for="v">Prés d'une ville</label><br>
+                                <input type="radio" id="a" name="place" value="a">
+                                <label class="mylabel" for="a">Prés d'un aeroport</label>
+                            </div>
+
+                            <div class="dropdown">
+                                <h4 class="ville">Nom de la ville</h4>
+                                <select class="ville">
+                                    <option selected value="Ville">Ville</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="col-md-12 left-2">
+                            <div class="dropdown">
+                                <h3 id="two"><span>2. </span>Nom d'un hôtel en particulier</h3>
+
+                                <h4>Nom de l'hôtel</h4>
+                                <select id="hotel">
+                                    <option selected value="Hôtel">Nom d'hôtel</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+
+                        <h3><span>3. </span>Indication sur les dates et les chambres</h3>
+
+                        <label>Date de départ: </label>
+                        <input type="date" name="calendar">
+                        <br>
+                        <label>Date de retour: </label>
+                        <input type="date" name="calendar">
+                        <br>
+                        <div class="dropdown" id="last">
+                            <label>Chambres: </label>
+                            <select id="hotel">
+                                <option selected value="Choisissez une option">Choisissez une option</option>
+                            </select>
+                            <br>
+                            <label>Adultes: </label>
+                            <select id="hotel">
+                                <option selected value="Choisissez une option">Choisissez une option</option>
+                            </select>
+                            <br>
+                            <label>Enfants: </label>
+                            <select id="hotel">
+                                <option selected value="Choisissez une option">Choisissez une option</option>
                             </select>
                         </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="col-md-12 left-2">
-                    <div class="dropdown">
-                        <h3 id="two"><span>2. </span>Nom d'un hôtel en particulier</h3>
-
-                        <h4>Nom de l'hôtel</h4>
-                        <select id="hotel">
-                            <option selected value="Hôtel">Nom d'hôtel</option>
-                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 col-sm-6">
+                            <input type="submit" name="" value="Soummetre">
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col">
-
-                <h3><span>3. </span>Indication sur les dates et les chambres</h3>
-
-                <label>Date de départ: </label>
-                <input type="date" name="calendar">
-                <br>
-                <label>Date de retour: </label>
-                <input type="date" name="calendar">
-                <br>
-                <div class="dropdown" id="last">
-                    <label>Chambres: </label>
-                    <select id="hotel">
-                        <option selected value="Choisissez une option">Choisissez une option</option>
-                    </select>
-                    <br>
-                    <label>Adultes: </label>
-                    <select id="hotel">
-                        <option selected value="Choisissez une option">Choisissez une option</option>
-                    </select>
-                    <br>
-                    <label>Enfants: </label>
-                    <select id="hotel">
-                        <option selected value="Choisissez une option">Choisissez une option</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-8 col-sm-6">
-                    <input type="submit" name="" value="Soummetre">
-                </div>
-            </div>
             </form>
-        </div>
-        <div class="arrow-down">
-            <a href="#sejour"><i class="fa fa-angle-down"></i></a>
+            <div class="arrow-down">
+                <a href="#sejour"><i class="fa fa-angle-down"></i></a>
+            </div>
         </div>
     </div>
+
 
 
     <!-- ////////////////////////////////////  -->
 
 
     <!-- PAGE 2: SEJOUR  -->
-    <div class="margin1"></div>
+
     <section id="sejour" class="container-sej">
         <div class="container-sej-inner">
             <div class="cont">
@@ -195,9 +198,9 @@
                 </div>
             </div>
 
-            </form>
         </div>
     </div>
+    </form>
     <div class="margin3"></div>
 
 </body>
@@ -207,10 +210,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+</script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 

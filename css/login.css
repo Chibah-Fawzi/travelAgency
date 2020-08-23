@@ -34,7 +34,9 @@ nav {
     border-bottom: 3px solid var(--main-bg-color);
 
 }
-
+ul {
+    border: 0;
+}
 .logo{
     margin: auto;
     margin-left: 47.5%;
@@ -116,13 +118,13 @@ h5 {
     width: 100%;
     padding: 10px 0;
     font-size: 15px;
-    color: white;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border: none;
     border-bottom: 1px solid white;
     outline: none;
     background: transparent;
     letter-spacing: 2px;
+    color: white;
 }
 
 .box .inputbox label {
@@ -130,18 +132,19 @@ h5 {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0;
     font-size: 15px;
     color: white;
     pointer-events: none;
-    transition: .5s;
+    transition: all 0.5s;
 }
 
+.box .inputbox input:hover~label,
 .box .inputbox input:focus~label,
 .box .inputbox input:valid~label {
     top: -18px;
     left: 0;
-    color: var(--secondary-bg-color);;
+    color: var(--secondary-bg-color);
+    background-color: transparent;
 }
 
 .box input[type="submit"] {

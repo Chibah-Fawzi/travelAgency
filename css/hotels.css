@@ -46,34 +46,52 @@ a:active {
 
 /* Navbar */
 nav {
+    position: relative;
     width: 100%;
     height: 10vh;
     background-color: white;
     border-bottom: 3px solid var(--main-bg-color);
-
 }
 
-.logo{
-    margin: auto;
-    margin-left: 47.5%;
+
+.nav-tabs {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+    border: 0;
+}
+
+.nav-tabs div,
+.nav-tabs li {
+    flex: 1;
+    width: 100%;
+    align-self: center;
+}
+
+.nav-tabs .dropdown{
+    text-align: end;
+}
+
+.nav-tabs .arrow {
+    margin-left: 20px;
+    text-align: start;
 }
 
 .nav-link {
-    margin: 12px;
     color: var(--main-bg-color);
     text-decoration: none;
     border: none;
 }
 
 .nav-link {
-    margin: 10px;
-    margin-right: 40Px;
     color: var(--main-bg-color);
     text-decoration: none;
     border: none;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--dark-bg-color);
     border: none;
 }
@@ -82,7 +100,7 @@ nav {
     border: none;
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu a:hover {
     background-color: var(--main-bg-color);
 }
 
@@ -98,39 +116,47 @@ span#account {
     font-weight: 100;
     color: var(--main-bg-color);
     transition: 0.4s;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
+.wrapper {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
-/* TITLE */ 
+/* TITLE */
 
-.mainh1 h1 {
+.mainh1  {
     color: var(--main-bg-color);
     font-weight: 500;
-    font-size:45px;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 45%;
+    font-size: 45px;
+    position: relative;
+    margin: 20px auto 0;
+    padding: auto;
+    text-align: center;
 }
 
 /* CONTAINER */
 
 .container-box {
-    margin-top: 3%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 63%;
-    background-color: rgba(2,108,62, 0.7); 
+    margin-top: 5vh;
+    position: relative;
+    width: 80vw;
+    text-align: start;
+    height: 70vh;
+    background-color: rgba(2, 108, 62, 0.7);
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 0px;
+    padding: 50px;
 }
 
 .container-box .row {
-margin: 1%;
-font-size: 11px;
+    margin: 1%;
+    font-size: 11px;
 }
 
 .container-box .dropdown {
@@ -149,9 +175,11 @@ font-size: 11px;
     -webkit-appearance: radio;
     outline: none;
     cursor: pointer;
+    display: inline-bloc;
 }
 
-.container-box h3, h4 {
+.container-box h3,
+h4 {
     font-size: 19px;
     transition: 1.4s;
 }
@@ -166,7 +194,7 @@ font-size: 11px;
 
 .container-box .dropdown h4 {
     margin-top: 30%;
-    
+
 }
 
 .container-box select {
@@ -179,14 +207,14 @@ font-size: 11px;
     display: table-cell;
 }
 
-.container-box input, label {
+.container-box input label {
     margin-bottom: 10px;
 }
 
 .container-box input[type="date"] {
     width: 100%;
     height: 5vh;
-    margin: 5px;
+    margin: 5px 0;
     margin-bottom: 10px;
 }
 
@@ -207,7 +235,7 @@ input[type=submit]:hover {
     border-color: transparent;
     background-color: var(--dark-bg-color);
     color: white;
-  }
+}
 
 span {
     color: var(--secondary-bg-color);
@@ -216,7 +244,7 @@ span {
 /* BARRES JAUNES */
 
 .left-1 {
-    border-right: solid 2px var(--secondary-bg-color);   
+    border-right: solid 2px var(--secondary-bg-color);
 }
 
 .left-2 {
@@ -226,12 +254,6 @@ span {
 
 /* FLECHE PRECEDENT */
 
-.arrow {
-    width: 50%;
-    position: absolute;
-    margin-top: 13px;
-    margin-left: 2%;
-}
 
 .arrow span {
     font-family: 'Roboto', sans-serif;
@@ -243,7 +265,7 @@ span {
     font-weight: 100;
     color: var(--main-bg-color);
     transition: 0.4s;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 .arrow a:hover {
@@ -255,16 +277,17 @@ span {
 
 .arrow-down {
     width: 100%;
-    position: absolute;
     text-align: center;
     font-size: 100px;
     font-weight: 100;
+    margin: 20px auto 0;
+    text-align: center;
 }
 
 .arrow-down a {
     color: var(--secondary-bg-color);
     transition: 0.4s;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 .arrow-down a:hover {
@@ -272,6 +295,9 @@ span {
     transition: 0.5s;
 }
 
+.container-box .mylabel {
+    display: inline-block;
+}
 
 
 /* DEUXIEME PAGE: SEJOUR */
@@ -347,17 +373,17 @@ span {
 /* PAGE 3: FORMULAIRE */
 
 /* CONTAINER */
-.container-box2{
+.container-box2 {
     margin-top: 8%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
     height: 55%;
-    background-color: rgba(2,108,62, 0.7); 
+    background-color: rgba(2, 108, 62, 0.7);
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 0px;
-    
+
 }
 
 .row#page3 {
@@ -365,20 +391,21 @@ span {
     font-size: 11px;
 }
 
-.container-box2 h3{
+.container-box2 h3 {
     font-size: 19px;
     transition: 1.4s;
     margin-bottom: 5vh;
 }
 
 .container-box2 select {
-    width:70%;
+    width: 70%;
     height: 5vh;
     margin-bottom: 5px;
 
 }
 
-.container-box2 input, label{
+.container-box2 input,
+label {
     margin-bottom: 10px;
 }
 
@@ -404,7 +431,7 @@ input[type=submit]:hover {
     border-color: transparent;
     background-color: var(--dark-bg-color);
     color: white;
-  }
+}
 
 span {
     color: var(--secondary-bg-color);
@@ -413,16 +440,16 @@ span {
 /* BARRES JAUNES */
 
 .left-1 {
-    border-right: solid 2px var(--secondary-bg-color);   
+    border-right: solid 2px var(--secondary-bg-color);
     height: 45vh;
 }
 
 hr {
-  border: 0;
-  clear:both;
-  display:block;
-  background-color:#FFFF00;
-  height: 1px;
+    border: 0;
+    clear: both;
+    display: block;
+    background-color: #FFFF00;
+    height: 1px;
 }
 
 /* MARGIN BOTTOM CONTAINER */

@@ -132,12 +132,21 @@ body {
     pointer-events: none;
     transition: .5s;
 }
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-internal-autofill-selected,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    background-color: transparent !important;
+}
 
 .box .inputbox input:focus~label,
 .box .inputbox input:valid~label {
     top: -18px;
     left: 0;
     color: var(--secondary-bg-color);;
+    background-color: transparent;
 }
 
 .box input[type="submit"] {

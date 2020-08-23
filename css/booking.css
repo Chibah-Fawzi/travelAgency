@@ -130,7 +130,8 @@ h1 {
 .carousel {
     margin-top: 23vh;
     margin-bottom: 10vh;
-    left:  33vh;
+    margin: 23vh auto;
+    float: none;
     width: 900px;
     }
     
