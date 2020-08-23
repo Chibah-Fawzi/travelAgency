@@ -70,7 +70,7 @@ nav {
     align-self: center;
 }
 
-.nav-tabs .dropdown{
+.nav-tabs .dropdown {
     text-align: end;
 }
 
@@ -130,7 +130,7 @@ span#account {
 
 /* TITLE */
 
-.mainh1  {
+.mainh1 {
     color: var(--main-bg-color);
     font-weight: 500;
     font-size: 45px;
@@ -312,26 +312,28 @@ span {
 }
 
 .container-sej {
-    background: url("../assets/gallery/bg.png") repeat 100%;
     text-align: center;
     width: 100%;
-    background-repeat: no-repeat;
 }
 
-.container-sej-inner {
-    padding-top: 10%;
-    padding-bottom: 10%;
+.background-1 {
+    background: url("../assets/sahara.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-2 {
+    background: url("../assets/maldive.png");
+    background-size: cover;
+    background-position: center;
 }
 
 /* White container */
 .cont {
     background-color: white;
-    width: 591px;
-    height: 450px;
     margin: auto;
     position: relative;
     color: black;
-
 }
 
 /* Text */
@@ -340,7 +342,6 @@ span {
     color: var(--main-bg-color);
     padding-top: 10%;
     font-weight: lighter;
-
 }
 
 .cont h5 {
@@ -356,7 +357,6 @@ span {
     font-weight: 350;
     margin-bottom: 12vh;
     letter-spacing: 2px;
-
 }
 
 .cont a {
@@ -374,15 +374,13 @@ span {
 
 /* CONTAINER */
 .container-box2 {
-    margin-top: 8%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 55%;
+    position: relative;
+    margin: 100px auto;
+    padding: 20px 0;
+    width: 80%;
+    height: 65vh;
     background-color: rgba(2, 108, 62, 0.7);
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
-    border-radius: 0px;
 
 }
 
@@ -424,7 +422,7 @@ input[type="submit"] {
     cursor: pointer;
     border-radius: 50px;
     width: 110px;
-    margin-top: 80px;
+    margin-top: 40vh;
 }
 
 input[type=submit]:hover {
