@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/colis.css">
     <!-- <link rel="stylesheet" href="css/mediaqueries.css"> -->
 
- 
+
 </head>
 
 <body>
@@ -29,11 +29,11 @@
                     aria-expanded="false"><span id="account">Nom Prénom </span><i id="arrow"
                         class="fa fa-angle-down"></i></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Mon compte</a>
+                    <a class="dropdown-item" href="#">Mes résérvations</a>
+                    <a class="dropdown-item" href="#">Paramétres</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
+                    <a class="dropdown-item" href="#" style="color:brown;">Deconnexion</a>
                 </div>
         </ul>
     </nav>
@@ -128,8 +128,67 @@
         </div>
     </div>
 
-</body>
 
+    <footer>
+
+        <div class="footer-bg" id="contact">
+            <h1 class="footerh1">NOUS CONTACTER</h1>
+            <div id="border"></div>
+            <div class="row">
+                <div class="col-md-4 left-f">
+                    <ul class="hours">
+                        <h5>HEURES D'OUVERTURE:</h5>
+                        <li>Lundi - Vendredi : 7h00 - 22h00</li>
+                        <li>Samedi : 8h00 - 22h00</li>
+                        <li>Dimanche : 8h00 - 23h00</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 right-f">
+                    <ul class="coord">
+                        <h5>COORDONÉS:</h5>
+                        <li>1 rue du Château</li>
+                        <li>info@monsite.com</li>
+                        <li>Tél : 01 23 45 67 89</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="box-form">
+                        <form>
+
+                            <input type="text" id="fname" name="firstname" placeholder="Nom">
+
+                            <input type="text" id="lname" name="lastname" placeholder="Email">
+
+
+                            <input type="text" id="lname" name="lastname" placeholder="Telephone">
+
+                            <textarea readonly placeholder="Régidez votre message ici.."
+                                style="height:200px"></textarea>
+                            <input class="form-btn" type="button" value="Envoyer">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2020, Relex International.
+                <p>
+            </div>
+            <div class="alert text-center cookiealert" role="alert">
+                <p>Nous utilisons les cookies afin d'améliorer votre expérience sur notre site. <a target="_blank"
+                        href="#">En savoir
+                        plus</a>.
+                    <button type="button" class="btn btn-primary btn-sm acceptcookies">Accepter</button>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+<script src="/js/cookies.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 <script src="/js/hotels.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
