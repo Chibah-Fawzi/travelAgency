@@ -1,5 +1,7 @@
 # TravelAgency
-A full 11 pages website for Relex International, an algerian travel agency. Built mainly with HTML/CSS & Vanilla JavaScript and some small JS libraries.
+A full 10 pages website for Relex International, an algerian travel agency. Built mainly with HTML/CSS & Vanilla JavaScript and some small JS libraries. It was customly made by the client's choices and some of my propositions.
+
+It contains a home page with 4 sections, a login and inscription form, a contact form and multiple other pages that are completly responsive.
 
 Unfortunately the project got canceled by the client for personal reasons, but the site is completed and completly functional.
 
